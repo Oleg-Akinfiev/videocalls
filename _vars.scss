@@ -1,0 +1,22 @@
+$mont: 'Montserrat', sans-serif;
+$open: 'Open Sans', sans-serif;
+
+$gradient: linear-gradient(51.78deg, #5540BF 28.44%, #AFA1F9 99.76%);
+
+
+$white: #FFFFFF;
+$gold: #FFD100;
+$purple: #5540BF;
+
+// Mixin, media
+@mixin breakpoint($br) {
+   @media (max-width: $br) {
+      @content;
+   }
+}
+$xl-bp: 1350px;
+$lg-bp: 992px;
+$md-bp: 768px;
+$sm-bp: 560px;
+
+// /Mixin, media
